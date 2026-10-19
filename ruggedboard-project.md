@@ -1,60 +1,62 @@
-# RuggedBoard Hardware-Interfacing Practice
+# RuggedBoard-Based Embedded Systems and Hardware Interfacing
 
 ## Overview
 
-As part of my programming training, I practised using Python with a RuggedBoard platform. The exercises covered I²C communication, sensor interfacing, and GPIO/LED control. These notes describe the areas I worked on; they are not a claim that I built or deployed a complete industrial product.
+During the programming training, I worked with a RuggedBoard platform and practised hardware interfacing using Python. The work covered I²C communication, sensor interfacing, and GPIO/LED control.
 
-## What I practised
+## Areas covered
 
-### I²C communication
+### 1. I²C device communication
 
-I learned how a program communicates with a peripheral over the I²C bus. The exercises included working with a device address and register-read operations, and looking at values represented in hexadecimal. I²C needs the correct bus, address, and device-specific register information to work properly.
+- Used Python to work with the board's I²C interface.
+- Practised configuring the I²C bus and setting a device address.
+- Worked with device-register read operations and hexadecimal output.
+- Learned how software communicates with peripherals over a serial hardware bus.
 
-### Sensor interfacing
+### 2. Sensor interfacing
 
-I got practical exposure to connecting sensor hardware and working with sensor-related values. The actual readings and setup depend on the sensor being used, its wiring, and any required configuration or calibration. I have not listed a sensor model because I have not verified it.
+- Practised connecting and interfacing sensor hardware through the board.
+- Worked with sensor-related values as part of the hardware exercise.
+- Learned that real sensor values depend on the sensor model, interface, calibration, and correct wiring.
 
-### GPIO and LED control
+### 3. GPIO and LED control
 
-I practised digital input/output concepts and controlling an LED through a GPIO interface. This helped me understand how a Python program can change a physical output and why pin configuration and wiring matter when debugging.
+- Practised digital input/output concepts using GPIO.
+- Worked with LED control to understand how software can change a hardware output.
+- Learned to check pin configuration and program logic while troubleshooting.
 
 ## Tools and concepts
 
 - Python
-- RuggedBoard platform (exact model still to be confirmed)
-- I²C device addressing and register access
-- Sensor interfacing
+- RuggedBoard platform (exact model to verify)
+- MRAA library for hardware-interface exercises, if confirmed against the code used
+- I²C addressing and register access
 - GPIO and LED control
-- Debugging software/hardware interface issues
-- MRAA library only if confirmed from the code or training notes
+- Sensor interfacing and debugging
 
-## Basic system flow
+## System flow
 
 ```text
 Python program
      |
-Board interface library
+Board hardware-interface library
      |
-RuggedBoard I²C or GPIO interface
+RuggedBoard I²C / GPIO interfaces
      |
-Peripheral, sensor, or LED circuit
+Connected peripheral, sensor, or LED circuit
      |
-Read a value or control an output
+Read data or control an output
 ```
 
-## What I learned
+## What this work demonstrates
 
-The exercises helped me connect programming concepts with electronic hardware. I practised checking configuration and code when an interface did not behave as expected, and learned that successful communication depends on both the software and the physical setup.
+The exercises provided practical exposure to the relationship between software, board interfaces, and electronic peripherals. The work is a training project, not a claim of industrial deployment or measured product performance.
 
-## Details I can add when verified
+## Details to add if available
 
-- RuggedBoard model:
-- Sensor or peripheral model:
-- I²C device/address:
+- Exact RuggedBoard model:
+- Sensor/module model:
+- I²C device used:
 - GPIO pins used:
-- Library and version:
-- Source code, photographs, or test results:
-
-## Current limitations
-
-This is a record of training exercises. It does not claim field deployment, measured product performance, or a completed industrial monitoring system. Any future write-up should include only hardware details and results that I can verify and explain.
+- Tools and library versions:
+- Evidence (source code, photographs, or results):

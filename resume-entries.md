@@ -1,29 +1,29 @@
-# Resume Entries — Training and Project Practice
+# Resume-Ready Entries
 
-Use the wording below only after checking it against your certificate and what you personally did. Replace the approximate duration or course name if the certificate gives different details.
+These entries are based on the training and project details currently remembered. Verify the exact provider/course name and keep only technical details you personally used.
 
 ## Technical Training
 
-**Python Programming Training — approximately 30 days**  
-*Provider/course title: use the exact wording on the certificate*
+**Python Programming Training Programme — approximately 30 days**  
+*Provider: MSME-associated training programme; exact issuing organisation to be verified*
 
-- Completed a short Python programming training programme and an end-of-training coding assessment.
-- Received a training certificate on completion.
+- Completed approximately 30 days of programming training focused on Python.
+- Completed a coding-language assessment at the end of the programme and received a training certificate.
 
-## Practical Project / Lab Work
+## Technical Project
 
-**RuggedBoard Hardware-Interfacing Practice**
+**RuggedBoard-Based Embedded Systems and Hardware Interfacing**
 
-**Topics:** Python, I²C, sensor interfacing, GPIO, LED control
+**Technologies:** Python, I²C, sensor interfacing, GPIO, LED control; MRAA if confirmed
 
-- Practised I²C device addressing and register-read operations using Python.
-- Worked with sensor-related values during RuggedBoard hardware exercises.
-- Practised GPIO input/output and LED control.
-- Debugged basic software and hardware-interface configuration issues during practical exercises.
+- Practised I²C communication, including device addressing and register-access operations using Python.
+- Worked on sensor interfacing and handling sensor-related readings on the RuggedBoard platform.
+- Practised GPIO-based digital input/output and LED control.
+- Tested programs and troubleshot software-to-hardware interface issues during hands-on exercises.
 
-## Before adding this to a resume
+## Resume accuracy checklist
 
-- Use the official course and issuing-organisation names printed on the certificate.
-- Add dates only when confirmed.
-- Mention MRAA, specific sensors, board models, or results only if you actually used them and can explain them.
-- Keep the wording as “training” or “practised” unless you have evidence of a completed independent implementation.
+- Confirm the issuer's exact legal name from the certificate.
+- Add dates only if known.
+- Do not add an exam score, certificate number, sensor model, or performance result unless verified.
+- Be ready to explain I²C, sensor interfacing, and GPIO in an interview.
