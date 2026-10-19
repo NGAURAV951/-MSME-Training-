@@ -1,22 +1,26 @@
-# Programming Training Record
+# My Programming Training Record
 
-## Summary
+## What I remember
 
-- **Programme:** Programming-language training associated with an MSME training programme (exact provider/course title to verify)
-- **Duration:** Approximately 30 days
-- **Language selected for training record:** Python
-- **Assessment:** A coding-language exam/assessment was conducted at the end of the training
-- **Completion:** A certificate was received after the training and assessment
+I completed a programming training programme that lasted approximately 30 days. Python was the language covered in the record I am keeping here. There was a coding-language assessment at the end, and I received a certificate after the training.
 
-## Details to verify from the certificate
+I want this page to match the certificate, so I have left details blank where I do not have verified information.
 
-| Field | Current record |
+## Certificate details to check
+
+| Detail | Status |
 |---|---|
-| Official course title | Not yet verified |
-| Issuing organisation | Not yet verified |
-| Training dates | Not yet verified |
-| Exam score/grade | Not provided |
-| Certificate ID | Not provided |
-| Delivery mode / location | Not provided |
+| Official course name | Check the certificate |
+| Issuing organisation | Check the certificate |
+| Start and end dates | Add if shown on the certificate |
+| Assessment score or grade | Not recorded here |
+| Certificate number | Not recorded here |
+| Training location or mode | Not confirmed |
 
-Do not invent missing certificate details. Fill them in only from the original certificate or a reliable record.
+## Skills I can discuss
+
+- Basic Python programming.
+- Working through coding exercises and an end-of-training assessment.
+- Practical exposure to RuggedBoard hardware exercises, including I²C, sensor interfacing, and GPIO/LED control, as described in the project notes.
+
+I should fill in the missing details only from the original certificate or another reliable record. I should not guess the provider's full name, dates, score, or certificate number.
