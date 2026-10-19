@@ -1,39 +1,29 @@
-# Programming Training & RuggedBoard Project
+# MSME Programming Training and RuggedBoard Practice
 
-This repository documents my approximately 30-day programming training and the embedded-systems work I completed using a RuggedBoard platform as a B.Tech Electronics and Communication Engineering (ECE) student.
+This repository is my record of a short programming training programme and the RuggedBoard exercises I worked on as an ECE student.
 
-> **Record note:** This summary is based on my recollection. The exact training provider name, course title, dates, and certificate wording should be verified against the certificate before being used in formal applications.
+The training lasted about 30 days. I studied Python and took a programming assessment at the end. I received a certificate after completing the training. I still need to check the certificate for the exact course title, issuing organisation, and dates, so I have not guessed those details here.
 
-## Training overview
+## What I worked on
 
-- **Duration:** Approximately 30 days
-- **Programming language:** Python
-- **Assessment:** Completed a coding-language exam/assessment at the end of the training
-- **Outcome:** Received a certificate after the training and assessment
-- **Provider:** MSME training programme (exact issuing organisation to be verified)
+During the practical sessions, I got exposure to:
 
-## RuggedBoard project work
+- **Python:** writing and testing small programs.
+- **I²C:** understanding device addresses and practising register reads.
+- **Sensor interfacing:** working with sensor-related data and learning how software communicates with connected hardware.
+- **GPIO and LEDs:** practising digital input/output and controlling an LED from code.
+- **Debugging:** checking code, pin settings, and interface configuration when something did not work as expected.
 
-The training included practical work with the RuggedBoard platform across these areas:
+The exact RuggedBoard model and sensor details are not recorded here yet. I will add them if I can confirm them from my notes or training materials.
 
-- **I²C communication:** Practised I²C device addressing and register access from Python.
-- **Sensor interfacing:** Worked with hardware interfacing and reading sensor-related values.
-- **GPIO and LED control:** Practised digital input/output operations and controlling LEDs.
-- **Debugging:** Ran and adjusted code while troubleshooting hardware-interface and programming issues.
+## Files in this repository
 
-The project description is intentionally limited to the activities remembered from the training. Specific board model, sensor models, final measurements, and assessment results have not been added because they have not been verified.
+- [Training record](training-record.md) — summary of the course and certificate details to verify.
+- [RuggedBoard project notes](ruggedboard-project.md) — what I practised and the concepts involved.
+- [Resume wording](resume-entries.md) — concise descriptions that can be adapted for a fresher resume.
 
-## Repository contents
+## A note about accuracy
 
-- [Training record](training-record.md) — concise summary of the programme and certificate
-- [RuggedBoard project](ruggedboard-project.md) — project description and technical concepts
-- [Resume entries](resume-entries.md) — copy-ready wording for a fresher resume
+This repository describes training exercises, not a deployed industrial system. I have not included an exam score, performance figures, or hardware results that I cannot verify. Before using these details in an application, I should check the certificate and keep only the tasks I can explain clearly in an interview.
 
-## Before using this in job applications
-
-1. Check the exact training provider and course title from the certificate.
-2. Add the actual training dates if available.
-3. Confirm which RuggedBoard model, sensor modules, and interfaces were used.
-4. Keep only the skills and tasks that you can explain and demonstrate in an interview.
-
-This is an independent learning/training record. It does not imply endorsement by, or affiliation with, Texas Instruments, BEL, Reliance Industries, or any other employer.
+This is my training record; it does not claim endorsement by or affiliation with any employer or hardware manufacturer.
